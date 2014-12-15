@@ -1,0 +1,56 @@
+#container {
+   text-align: center;
+   background: purple;
+}
+
+.menu-item-name {
+	float: left;
+	width: 250px;
+	text-align: left;
+	color: yellow;
+}
+
+img {
+	float:right;
+	width: 100px;
+}
+
+.menu-item-description:before {
+	content: "-"
+}
+
+.menu-item-description {
+	float: left;
+	width: 1000px;
+	text-align: left;
+  	white-space: normal;
+}
+
+.menu-item-price {
+	float: right;
+	width: 100px;
+	text-align: left;
+	color: green;
+}
+
+ul {
+	list-style-type: none
+}
+
+a:link {
+	text-decoration: none
+}
+
+a:hover {
+	color: red;
+	text-decoration: line-through;
+}
+
+
+.menu-item-price:before {
+	content: "$";
+}
+
+nav ul li {
+  display: inline-block;
+}
